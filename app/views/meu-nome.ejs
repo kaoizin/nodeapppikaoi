@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+  	<link rel="stylesheet" type="text/css" href="estilo.css">
+  	<title>Meu Nome</title>
+</head>
+<body>
+	<form action="meuNome" method="POST">
+		<input name="nome" type="text"/>
+		<input type="submit" value="Enviar"/>
+	</form>	
+	
+	<p> <% if(locals.nome) {%>
+		Seu nome é: <%= nome %>
+	<% } %> </p>
+</body>
+</html>
