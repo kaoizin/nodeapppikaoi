@@ -7,3 +7,7 @@ http.createServer( app ).listen( config.port, config.address, function() {
     console.log('Express Http Server ' +
         config.address + ' escutando na porta ' + config.port);
 });
+
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
+});
