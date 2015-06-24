@@ -1,6 +1,7 @@
 var express = require( "express" );
 var load  = require( "express-load" );
 var bodyParser = require( "body-parser" );
+var port = process.env.PORT || 3000;
 
 module.exports = function() {
     var app = express();
