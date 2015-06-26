@@ -1,0 +1,30 @@
+extends layout
+
+block content
+	h1 Usuarios
+	br
+	a(href="/create" title="Cadastrar", class="btn btn-success") Cadastrar
+	
+	br
+	br
+	table(class="table well")
+		thead
+				tr
+					th Id:
+					th Nome:
+					th Login:
+					th Email:
+	
+		tbody
+			each valor, i in lista
+				tr 
+					td teste
+					td 
+					td
+					td
+						a(href="/edit", title="Editar", class="btn btn-info")
+							span(class="glyphicon glyphicon-pencil")
+						&nbsp
+						a(href="/detalhes", title="Detalhes", class="btn btn-primary")
+							span(class="glyphicon glyphicon-search")
+	
