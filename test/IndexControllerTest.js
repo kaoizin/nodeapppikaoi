@@ -1,4 +1,4 @@
-var IndexController = require("../app/controllers/IndexController")()
+/*var IndexController = require("../app/controllers/IndexController")()
 
 var expect = require("expect");
 
@@ -10,4 +10,4 @@ describe("IndexController", function() {
 		//console.log("Retorno:", retorno);
 		expect(retorno).toEqual(esperado);
 	});
-});
+});*/
